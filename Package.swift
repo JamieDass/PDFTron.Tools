@@ -12,7 +12,7 @@ let package = Package(
             targets: ["PDFTron.Tools"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/JamieDass/PTSPMTest", Package.Dependency.Requirement)
+        .package(url: "https://github.com/JamieDass/PTSPMTest", Package.Dependency.Requirement.branch("main"))
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
